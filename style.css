@@ -1,0 +1,20 @@
+.header {
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-image: url("important.jpg");
+    /*background-attachment: fixed;       /* bg image doesn't move when you scroll */
+    background-size: cover;
+    background-position: bottom;
+}
+
+h1 {
+    text-align: center;
+    color: #0e4517;
+    font-size: 100px;
+    font-weight: bold;
+}
