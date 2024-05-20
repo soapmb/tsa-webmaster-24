@@ -107,6 +107,8 @@ li {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-family: "Song Myung";
+    font-size: 25px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -119,7 +121,7 @@ li {
 .panel {
     padding: 18px;
     background-color: white;
-    display: none;
+    display: block;
     overflow: hidden;
 }
 
