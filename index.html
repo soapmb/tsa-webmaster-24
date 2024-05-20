@@ -11,10 +11,16 @@
   <!-- Import the stylesheet (style.css) -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!-- Import the AOS library -->
+  <link rel=“stylesheet” href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- Import Song Myung font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+
+  <!-- tab icon -->
+  <link rel="icon" href="urgent.ico">
 
   <title>Home | Go Green</title>
 
@@ -30,7 +36,8 @@
         <a href="index.html"> Home </a>
         <a href="pricing.html"> Pricing </a>
         <a href="practices.html"> Clean/Green Energy Practices </a>
-        <a href="about.html"> About/References </a>
+        <a href="about.html"> About </a>
+        <a href="references.html"> Credits/Sources </a>
       </div>
 
 
@@ -40,6 +47,7 @@
 
 
       <div class="body">
+        
         <h2>Your #1 guide to green and clean home energy practices!</h2>
 
         <br></br>
@@ -47,7 +55,6 @@
         <div class="why">
           <h3>Why Go Green?</h3>
           <h4>Renewable energy systems allow you to save money and conserve energy in your home.</h4>
-
 
 
           <button class="accordion">Geothermal heat pumps</button>
@@ -74,9 +81,10 @@
           <button class="accordion">Solar energy systems</button>
           <div class="panel">
             <p>
-              Also known as solar photovoltaic (PV) systems, these systems similarly harvest energy from the sun. This
+              Solar energy systems, also known as solar photovoltaic (PV) systems, harvest energy from the sun. This
               energy, however, is converted into electricity. These systems can provide energy for all the electrical
-              needs of a house, given there is enough sunlight. Solar cells are the "building blocks" of PV systems.
+              needs of a house, given there is enough sunlight. Solar cells are the fundamental particles that make up
+              PV systems.
               Solar panels can withstand bad weather and the effects of harmful ultraviolet rays. They can also be
               aligned to form array patterns, and can be mounted on both stationary and moving surfaces. Solar energy
               systems are low maintenance.
@@ -105,6 +113,11 @@
     </div>
 
   </div> <!-- navbar -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init( { duration: 1200, } );
+  </script>
 
   </div> <!-- container -->
 

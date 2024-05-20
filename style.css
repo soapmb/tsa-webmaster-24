@@ -14,9 +14,9 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-image: url("bg.jpg");
+    /*background-image: url("bg.jpg");*/
     /*background-attachment: fixed;       /* bg image doesn't move when you scroll */
-    background-size: cover;
+    background-size: auto;
     background-position: bottom;
 }
 
@@ -72,11 +72,12 @@ container {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 h1 {
     text-align: center;
-    color: #1f2a22;
+    color: #91BA8D;
     font-size: 100px;
     font-weight: bold;
 }
@@ -120,7 +121,7 @@ li {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: none;
     outline: none;
     transition: 0.4s;
@@ -128,7 +129,7 @@ li {
     font-size: 25px;
     border-style: solid;
     border-color: #658A6E;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -140,13 +141,11 @@ li {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 0 18px;
-    background-color: #f2f2f2;
-    /*max-height: 0;*/
+    background-color: rgb(203, 203, 203);
+    max-height: 0;
     overflow: hidden;
-    display: none;
-    margin-bottom: 10px;
     transition: max-height 0.2s ease-out;
-}
+  }
 
 
 

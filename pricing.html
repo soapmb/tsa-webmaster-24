@@ -10,6 +10,9 @@
   <!-- Import the stylesheet (style.css) -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!-- Import the AOS library -->
+  <link rel=“stylesheet” href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- Import Song Myung font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +31,8 @@
         <a href="index.html"> Home </a>
         <a href="pricing.html"> Pricing </a>
         <a href="practices.html"> Clean/Green Energy Practices </a>
-        <a href="about.html"> About/References </a>
+        <a href="about.html"> About </a>
+        <a href="references.html"> Credits/Sources </a>
       </div>
 
 
@@ -40,42 +44,52 @@
       <div class="body">
         <!--<h2>page 2!</h2>-->
 
-        <button class="accordion">Solar hot water systems</button>
-        <div class="panel">
-          <p>
+        <div class="why">
+
+          <button class="accordion">Solar hot water systems</button>
+          <div class="panel">
+            <p>
             <ul>
               <li>Meets 50% of hot water needs</li>
               <li>About $5000 to $7000</li>
             </ul>
-          </p>
-        </div>
+            </p>
+          </div>
 
-        <button class="accordion">Solar/PV energy systems</button>
-        <div class="panel">
-          <p>
+          <button class="accordion">Solar/PV energy systems</button>
+          <div class="panel">
+            <p>
             <ul>
               <li>$3 per watt</li>
               <li>7000 watt system ≈ 20 to 35 kilowatt-hours of electricity per day ≈ $21000</li>
-              <dd><li>Usually meets the electricity needs of the average house</li></dd>
+              <dd>
+                <li>Usually meets the electricity needs of the average house</li>
+              </dd>
             </ul>
-          </p>
-        </div>
+            </p>
+          </div>
 
-        <button class="accordion">Wind energy systems</button>
-        <div class="panel">
-          <p>
+          <button class="accordion">Wind energy systems</button>
+          <div class="panel">
+            <p>
             <ul>
               <li>$5 per kilowatt</li>
               <li>Full systems cost ≈ $10,000 to $70,000</li>
-              <dd><li>Depends on the area's permitting, zoning, and utility interconnection prices</li></dd>
+              <dd>
+                <li>Depends on the area's permitting, zoning, and utility interconnection prices</li>
+              </dd>
               <li>Can sell excess energy made by systems</li>
-              <dd><li>Net metering: a meter measures excess energy as well as the energy going to home</li></dd>
+              <dd>
+                <li>Net metering: a meter measures excess energy as well as the energy going to home</li>
+              </dd>
             </ul>
-          </p>
+            </p>
+          </div>
+          <!-- import JavaScript code for accordion buttons -->
+          <script src="accordion.js"></script>
+
         </div>
-        <!-- import JavaScript code for accordion buttons -->
-        <script src="accordion.js"></script>
-        
+
       </div>
 
     </div> <!-- navbar -->
