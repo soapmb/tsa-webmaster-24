@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    /*background-image: url("important.jpg");*/
+    background-image: url("bg.jpg");
     /*background-attachment: fixed;       /* bg image doesn't move when you scroll */
     background-size: cover;
     background-position: bottom;
@@ -102,6 +102,7 @@ h4 {
 
 p {
     padding-right: 0px;
+    font-size: 25px;
 }
 
 li {
@@ -115,7 +116,7 @@ li {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #91BA8D;
-    color: #2b2b2b;
+    color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -125,6 +126,9 @@ li {
     transition: 0.4s;
     font-family: "Song Myung";
     font-size: 25px;
+    border-style: solid;
+    border-color: #658A6E;
+    margin-bottom: 10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -135,10 +139,13 @@ li {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 18px;
+    padding: 0 18px;
     background-color: #f2f2f2;
-    display: block;
+    /*max-height: 0;*/
     overflow: hidden;
+    display: none;
+    margin-bottom: 10px;
+    transition: max-height 0.2s ease-out;
 }
 
 
