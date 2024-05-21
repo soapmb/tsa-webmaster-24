@@ -3,12 +3,12 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
-  margin: auto;
+  /*position: relative;
+  margin: auto;*/
 }
 
 /* Hide the images by default */
-.mySlides {
+.slides {
   display: none;
 }
 
@@ -18,7 +18,7 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
+    margin-top: 80px;
     padding: 16px;
     margin-left: 30px;
     color: rgb(0, 0, 0);
@@ -35,7 +35,7 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 80px;
   padding: 16px;
   margin-right: 30px;
   color: rgb(0, 0, 0);
@@ -73,7 +73,6 @@
   color: #000000;
   font-size: 12px;
   text-align: center;
-  /*top: 0;*/
 }
 
 /* The dots/bullets/indicators */
