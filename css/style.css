@@ -10,9 +10,10 @@ body {
     height: 250px;
     width: 100%;
     margin: 0px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     /*background-image: url("bg.jpg");*/
     /*background-attachment: fixed;       /* bg image doesn't move when you scroll */
@@ -52,7 +53,7 @@ container {
 
 .pages>a:hover {
     color: #91BA8D;
-  }
+}
 
 .credits {
     padding-bottom: 50px;
@@ -110,42 +111,3 @@ li {
     margin-bottom: 10px;
     font-size: 25px;
 }
-
-
-/* accordion buttons and stuff */
-
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #91BA8D;
-    color: #000000;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: center;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    font-family: "Song Myung";
-    font-size: 25px;
-    border-style: solid;
-    border-color: #658A6E;
-    margin-top: 10px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.accordion:hover {
-    background-color: #658A6E;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: rgb(203, 203, 203);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-
-
