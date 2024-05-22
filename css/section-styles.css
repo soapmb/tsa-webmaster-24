@@ -1,0 +1,67 @@
+.section.style.one {
+    align-items: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    display: flex;
+    background-color: #91BA8D;
+    margin-left: 50px;
+    margin-right: 400px;
+    margin-bottom: 75px;
+
+    border-style: solid;
+    border-color: #658A6E;
+    border-radius: 30px;
+    /* rounded edges */
+    border-width: 7px;
+
+}
+
+.section.style.two {
+    align-items: right;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    display: flex;
+    background-color: #91BA8D;
+    margin-left: 400px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+
+    border-style: solid;
+    border-color: #658A6E;
+    border-radius: 30px;
+    /* rounded edges */
+    border-width: 7px;
+
+}
+
+.section.style.three {
+    align-items: center;
+    /*padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;*/
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: #91BA8D;
+    margin-left: 210px;
+    margin-right: 200px;
+    margin-bottom: 75px;
+
+    border-style: solid;
+    border-color: #658A6E;
+    border-radius: 30px;        /* rounded edges */
+    border-width: 7px;
+
+}
+
+.sstext {
+    text-align: center;
+}
+
+.bullets {
+    padding-left: 150px;
+    text-align: left;
+}
