@@ -26,7 +26,6 @@ container {
     display: flex;
     /* stacks the flex items vertically (default is horizontal) */
     flex-direction: column;
-    align-items: center;
 }
 
 .navbar {
@@ -36,10 +35,19 @@ container {
     margin: 0px;
 }
 
+@media screen and (max-width: 960px) {
+    .navbar {
+        height: 100px;
+        width: 100%;
+        background: #658A6E;
+        margin: 0px;
+    }
+}
+
 /* class config */
 .pages {
     text-align: center;
-    padding-left: 100px;
+    align-items: center;
     padding-top: 10px;
 }
 
@@ -47,7 +55,7 @@ container {
 .pages>a {
     color: black;
     text-decoration: none;
-    margin-right: 50px;
+    margin: 30px;
     font-size: 20px;
 }
 
@@ -64,12 +72,6 @@ container {
     font-size: 25px;
 }
 
-.why.header {
-    text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 .why {
     text-align: center;
     padding-left: 100px;
@@ -77,11 +79,29 @@ container {
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 960px) {
+    .why {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+}
+
 h1 {
     text-align: center;
     color: #91BA8D;
     font-size: 100px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    h1 {
+        text-align: center;
+        color: #91BA8D;
+        font-size: 70px;
+        font-weight: bold;
+    }
 }
 
 h2 {
