@@ -1,7 +1,7 @@
 body {
     margin: 0 px;
     font-family: "Song Myung";
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     /*padding-left: 20px;
     padding-right: 20px;*/
 }
@@ -10,14 +10,13 @@ body {
     height: 250px;
     width: 100%;
     margin: 0px;
-    /*display: flex;*/
     align-items: center;
     justify-content: center;
     text-align: center;
 
-    /*background-image: url("bg.jpg");*/
+    /*background-image: url("../bg.jpg");*/
     /*background-attachment: fixed;       /* bg image doesn't move when you scroll */
-    background-size: auto;
+    background-size: cover;
     background-position: bottom;
 }
 
